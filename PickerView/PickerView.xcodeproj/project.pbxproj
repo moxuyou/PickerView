@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03A74BB01D143F2D001FFA45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A74BAF1D143F2D001FFA45 /* main.m */; };
+		03A74BB31D143F2D001FFA45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A74BB21D143F2D001FFA45 /* AppDelegate.m */; };
+		03A74BB61D143F2D001FFA45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A74BB51D143F2D001FFA45 /* ViewController.m */; };
+		03A74BB91D143F2D001FFA45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A74BB71D143F2D001FFA45 /* Main.storyboard */; };
+		03A74BBB1D143F2D001FFA45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A74BBA1D143F2D001FFA45 /* Assets.xcassets */; };
+		03A74BBE1D143F2D001FFA45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A74BBC1D143F2D001FFA45 /* LaunchScreen.storyboard */; };
+		03A74BC81D1440EA001FFA45 /* LXHNormalPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A74BC61D1440EA001FFA45 /* LXHNormalPickView.m */; };
+		03A74BC91D1440EA001FFA45 /* LXHNormalPickView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A74BC71D1440EA001FFA45 /* LXHNormalPickView.xib */; };
+		03A74BCB1D1442FD001FFA45 /* foods.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03A74BCA1D1442FD001FFA45 /* foods.plist */; };
+		03A74BCF1D14447C001FFA45 /* LXHimagePickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A74BCD1D14447C001FFA45 /* LXHimagePickView.m */; };
+		03A74BD01D14447C001FFA45 /* LXHimagePickView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A74BCE1D14447C001FFA45 /* LXHimagePickView.xib */; };
+		03A74BD21D1444C1001FFA45 /* flags.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03A74BD11D1444C1001FFA45 /* flags.plist */; };
+		03A74BD91D14464E001FFA45 /* LXHFlagView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A74BD81D14464E001FFA45 /* LXHFlagView.xib */; };
+		03A74BDC1D144669001FFA45 /* LXHFlagItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A74BDB1D144669001FFA45 /* LXHFlagItem.m */; };
+		03A74BE31D144A17001FFA45 /* LXHFlagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A74BE21D144A17001FFA45 /* LXHFlagView.m */; };
+		03A74BE71D144B65001FFA45 /* LXHDatePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A74BE51D144B65001FFA45 /* LXHDatePickerVC.m */; };
+		03A74BE81D144B65001FFA45 /* LXHDatePickerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A74BE61D144B65001FFA45 /* LXHDatePickerVC.xib */; };
+		03A74BEC1D144D41001FFA45 /* LXHCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A74BEA1D144D41001FFA45 /* LXHCityViewController.m */; };
+		03A74BED1D144D41001FFA45 /* LXHCityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A74BEB1D144D41001FFA45 /* LXHCityViewController.xib */; };
+		03A74BF01D144D60001FFA45 /* LXHCityItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A74BEF1D144D60001FFA45 /* LXHCityItem.m */; };
+		03A74BF21D144F4C001FFA45 /* provinces.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03A74BF11D144F4C001FFA45 /* provinces.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03A74BAB1D143F2D001FFA45 /* PickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03A74BAF1D143F2D001FFA45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03A74BB11D143F2D001FFA45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03A74BB21D143F2D001FFA45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03A74BB41D143F2D001FFA45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03A74BB51D143F2D001FFA45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03A74BB81D143F2D001FFA45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03A74BBA1D143F2D001FFA45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03A74BBD1D143F2D001FFA45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03A74BBF1D143F2D001FFA45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03A74BC51D1440EA001FFA45 /* LXHNormalPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXHNormalPickView.h; sourceTree = "<group>"; };
+		03A74BC61D1440EA001FFA45 /* LXHNormalPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXHNormalPickView.m; sourceTree = "<group>"; };
+		03A74BC71D1440EA001FFA45 /* LXHNormalPickView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXHNormalPickView.xib; sourceTree = "<group>"; };
+		03A74BCA1D1442FD001FFA45 /* foods.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = foods.plist; sourceTree = "<group>"; };
+		03A74BCC1D14447C001FFA45 /* LXHimagePickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXHimagePickView.h; sourceTree = "<group>"; };
+		03A74BCD1D14447C001FFA45 /* LXHimagePickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXHimagePickView.m; sourceTree = "<group>"; };
+		03A74BCE1D14447C001FFA45 /* LXHimagePickView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXHimagePickView.xib; sourceTree = "<group>"; };
+		03A74BD11D1444C1001FFA45 /* flags.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = flags.plist; sourceTree = "<group>"; };
+		03A74BD81D14464E001FFA45 /* LXHFlagView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXHFlagView.xib; sourceTree = "<group>"; };
+		03A74BDA1D144669001FFA45 /* LXHFlagItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXHFlagItem.h; sourceTree = "<group>"; };
+		03A74BDB1D144669001FFA45 /* LXHFlagItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXHFlagItem.m; sourceTree = "<group>"; };
+		03A74BE11D144A17001FFA45 /* LXHFlagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXHFlagView.h; sourceTree = "<group>"; };
+		03A74BE21D144A17001FFA45 /* LXHFlagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXHFlagView.m; sourceTree = "<group>"; };
+		03A74BE41D144B65001FFA45 /* LXHDatePickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXHDatePickerVC.h; sourceTree = "<group>"; };
+		03A74BE51D144B65001FFA45 /* LXHDatePickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXHDatePickerVC.m; sourceTree = "<group>"; };
+		03A74BE61D144B65001FFA45 /* LXHDatePickerVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXHDatePickerVC.xib; sourceTree = "<group>"; };
+		03A74BE91D144D41001FFA45 /* LXHCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXHCityViewController.h; sourceTree = "<group>"; };
+		03A74BEA1D144D41001FFA45 /* LXHCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXHCityViewController.m; sourceTree = "<group>"; };
+		03A74BEB1D144D41001FFA45 /* LXHCityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXHCityViewController.xib; sourceTree = "<group>"; };
+		03A74BEE1D144D60001FFA45 /* LXHCityItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXHCityItem.h; sourceTree = "<group>"; };
+		03A74BEF1D144D60001FFA45 /* LXHCityItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXHCityItem.m; sourceTree = "<group>"; };
+		03A74BF11D144F4C001FFA45 /* provinces.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = provinces.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03A74BA81D143F2D001FFA45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03A74BA21D143F2D001FFA45 = {
+			isa = PBXGroup;
+			children = (
+				03A74BAD1D143F2D001FFA45 /* PickerView */,
+				03A74BAC1D143F2D001FFA45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03A74BAC1D143F2D001FFA45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03A74BAB1D143F2D001FFA45 /* PickerView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03A74BAD1D143F2D001FFA45 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				03A74BE01D1449FE001FFA45 /* date */,
+				03A74BDF1D1449F4001FFA45 /* city */,
+				03A74BDE1D1449EE001FFA45 /* image */,
+				03A74BDD1D1449DB001FFA45 /* normal */,
+				03A74BB11D143F2D001FFA45 /* AppDelegate.h */,
+				03A74BB21D143F2D001FFA45 /* AppDelegate.m */,
+				03A74BB41D143F2D001FFA45 /* ViewController.h */,
+				03A74BB51D143F2D001FFA45 /* ViewController.m */,
+				03A74BB71D143F2D001FFA45 /* Main.storyboard */,
+				03A74BBA1D143F2D001FFA45 /* Assets.xcassets */,
+				03A74BBC1D143F2D001FFA45 /* LaunchScreen.storyboard */,
+				03A74BBF1D143F2D001FFA45 /* Info.plist */,
+				03A74BAE1D143F2D001FFA45 /* Supporting Files */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		03A74BAE1D143F2D001FFA45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03A74BAF1D143F2D001FFA45 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03A74BDD1D1449DB001FFA45 /* normal */ = {
+			isa = PBXGroup;
+			children = (
+				03A74BCA1D1442FD001FFA45 /* foods.plist */,
+				03A74BC51D1440EA001FFA45 /* LXHNormalPickView.h */,
+				03A74BC61D1440EA001FFA45 /* LXHNormalPickView.m */,
+				03A74BC71D1440EA001FFA45 /* LXHNormalPickView.xib */,
+			);
+			name = normal;
+			sourceTree = "<group>";
+		};
+		03A74BDE1D1449EE001FFA45 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				03A74BD11D1444C1001FFA45 /* flags.plist */,
+				03A74BE11D144A17001FFA45 /* LXHFlagView.h */,
+				03A74BE21D144A17001FFA45 /* LXHFlagView.m */,
+				03A74BCC1D14447C001FFA45 /* LXHimagePickView.h */,
+				03A74BCD1D14447C001FFA45 /* LXHimagePickView.m */,
+				03A74BCE1D14447C001FFA45 /* LXHimagePickView.xib */,
+				03A74BD81D14464E001FFA45 /* LXHFlagView.xib */,
+				03A74BDA1D144669001FFA45 /* LXHFlagItem.h */,
+				03A74BDB1D144669001FFA45 /* LXHFlagItem.m */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		03A74BDF1D1449F4001FFA45 /* city */ = {
+			isa = PBXGroup;
+			children = (
+				03A74BF11D144F4C001FFA45 /* provinces.plist */,
+				03A74BE91D144D41001FFA45 /* LXHCityViewController.h */,
+				03A74BEA1D144D41001FFA45 /* LXHCityViewController.m */,
+				03A74BEB1D144D41001FFA45 /* LXHCityViewController.xib */,
+				03A74BEE1D144D60001FFA45 /* LXHCityItem.h */,
+				03A74BEF1D144D60001FFA45 /* LXHCityItem.m */,
+			);
+			name = city;
+			sourceTree = "<group>";
+		};
+		03A74BE01D1449FE001FFA45 /* date */ = {
+			isa = PBXGroup;
+			children = (
+				03A74BE41D144B65001FFA45 /* LXHDatePickerVC.h */,
+				03A74BE51D144B65001FFA45 /* LXHDatePickerVC.m */,
+				03A74BE61D144B65001FFA45 /* LXHDatePickerVC.xib */,
+			);
+			name = date;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03A74BAA1D143F2D001FFA45 /* PickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03A74BC21D143F2D001FFA45 /* Build configuration list for PBXNativeTarget "PickerView" */;
+			buildPhases = (
+				03A74BA71D143F2D001FFA45 /* Sources */,
+				03A74BA81D143F2D001FFA45 /* Frameworks */,
+				03A74BA91D143F2D001FFA45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PickerView;
+			productName = PickerView;
+			productReference = 03A74BAB1D143F2D001FFA45 /* PickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03A74BA31D143F2D001FFA45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LXH;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = moxuyou;
+				TargetAttributes = {
+					03A74BAA1D143F2D001FFA45 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 03A74BA61D143F2D001FFA45 /* Build configuration list for PBXProject "PickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03A74BA21D143F2D001FFA45;
+			productRefGroup = 03A74BAC1D143F2D001FFA45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03A74BAA1D143F2D001FFA45 /* PickerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03A74BA91D143F2D001FFA45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A74BCB1D1442FD001FFA45 /* foods.plist in Resources */,
+				03A74BD91D14464E001FFA45 /* LXHFlagView.xib in Resources */,
+				03A74BF21D144F4C001FFA45 /* provinces.plist in Resources */,
+				03A74BBE1D143F2D001FFA45 /* LaunchScreen.storyboard in Resources */,
+				03A74BD21D1444C1001FFA45 /* flags.plist in Resources */,
+				03A74BED1D144D41001FFA45 /* LXHCityViewController.xib in Resources */,
+				03A74BC91D1440EA001FFA45 /* LXHNormalPickView.xib in Resources */,
+				03A74BBB1D143F2D001FFA45 /* Assets.xcassets in Resources */,
+				03A74BD01D14447C001FFA45 /* LXHimagePickView.xib in Resources */,
+				03A74BB91D143F2D001FFA45 /* Main.storyboard in Resources */,
+				03A74BE81D144B65001FFA45 /* LXHDatePickerVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03A74BA71D143F2D001FFA45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A74BB61D143F2D001FFA45 /* ViewController.m in Sources */,
+				03A74BE31D144A17001FFA45 /* LXHFlagView.m in Sources */,
+				03A74BF01D144D60001FFA45 /* LXHCityItem.m in Sources */,
+				03A74BCF1D14447C001FFA45 /* LXHimagePickView.m in Sources */,
+				03A74BC81D1440EA001FFA45 /* LXHNormalPickView.m in Sources */,
+				03A74BB31D143F2D001FFA45 /* AppDelegate.m in Sources */,
+				03A74BE71D144B65001FFA45 /* LXHDatePickerVC.m in Sources */,
+				03A74BB01D143F2D001FFA45 /* main.m in Sources */,
+				03A74BEC1D144D41001FFA45 /* LXHCityViewController.m in Sources */,
+				03A74BDC1D144669001FFA45 /* LXHFlagItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03A74BB71D143F2D001FFA45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A74BB81D143F2D001FFA45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03A74BBC1D143F2D001FFA45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A74BBD1D143F2D001FFA45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03A74BC01D143F2D001FFA45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03A74BC11D143F2D001FFA45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03A74BC31D143F2D001FFA45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxuyou.PickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03A74BC41D143F2D001FFA45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxuyou.PickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03A74BA61D143F2D001FFA45 /* Build configuration list for PBXProject "PickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03A74BC01D143F2D001FFA45 /* Debug */,
+				03A74BC11D143F2D001FFA45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03A74BC21D143F2D001FFA45 /* Build configuration list for PBXNativeTarget "PickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03A74BC31D143F2D001FFA45 /* Debug */,
+				03A74BC41D143F2D001FFA45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03A74BA31D143F2D001FFA45 /* Project object */;
+}
